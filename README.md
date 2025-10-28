@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hello and welcome to Shawis's Repo!
 
-<!--
-**Shanwis/Shanwis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is Ashwin and I am passionate about all things computer. I have been trying to explore multiple fields like Quantum Computing, IoT, HPC, AI, Game Development, etc. Hope we can collaborate on exciting new domains and projects!
 
-Here are some ideas to get you started:
+## My projects
+### Made using C/C++
+[MimiQ: A Quantum Simulator](https://github.com/Shanwis/MimiQ) 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[Stack-Based-Virtual-Machine](https://github.com/Shanwis/Stack-Based-Virtual-Machine)
+### Made using Python
+[GIFmeMore](https://github.com/Shanwis/GIFmeMore)
+### IoT/Embedded Projects
+[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)
+
