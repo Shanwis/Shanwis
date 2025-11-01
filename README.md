@@ -12,3 +12,6 @@ My name is Ashwin and I am passionate about all things computer. I have been try
 ### IoT/Embedded Projects
 [Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)
 
+## Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shanwis&layout=compact&hide=html&theme=dark&card_width=400)](https://github.com/shanwis)
