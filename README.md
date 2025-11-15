@@ -1,17 +1,54 @@
-# Hello and welcome to Shawis's Repo!
+# Hi, I'm Ashwin/Shanwis! 👋
 
-My name is Ashwin and I am passionate about all things computer. I have been trying to explore multiple fields like Quantum Computing, IoT, HPC, AI, Game Development, etc. Hope we can collaborate on exciting new domains and projects!
+I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**.
 
-## My projects
-### Made using C/C++
-[MimiQ: A Quantum Simulator](https://github.com/Shanwis/MimiQ) 
+I'm always open to collaborating on interesting projects or discussing new ideas.
 
-[Stack-Based-Virtual-Machine](https://github.com/Shanwis/Stack-Based-Virtual-Machine)
-### Made using Python
-[GIFmeMore](https://github.com/Shanwis/GIFmeMore)
-### IoT/Embedded Projects
-[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)
+---
 
-## Languages
+## My Featured Projects
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shanwis&layout=compact&hide=html&theme=dark&card_width=400)](https://github.com/shanwis)
+Here's a selection of projects I've been working on.
+
+### C / C++
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[MaQrel: A Quantum Simulator](https://github.com/Shanwis/MaQrel)** | A lightweight, high-performance quantum circuit simulator built from scratch. | `C++` `OpenMP` `Python` |
+| **[Toy-Virtual-Machine](https://github.com/Shanwis/Toy-Virtual-Machine)** | A simple VM and assembler that interprets its own bytecode. | `C` `Assembler` |
+
+### Python
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` `Click` |
+
+### 💡 IoT / Embedded
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` |
+
+---
+
+## 🔧 My Tech Stack & Stats
+
+### Core Technologies
+<p>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/ESP32-E7332E?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+</p>
+
+### GitHub Stats
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanwis&layout=compact&hide=html&theme=dark&card_width=400" alt="Top Languages"/>
+  
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=shanwis&show_icons=true&theme=dark" alt="GitHub Stats"/>
+</p>
+
+---
+
+## Let's Connect!
+
+- **LinkedIn:** [My Linkdin](https://www.linkedin.com/in/ashwin-s-67877728a/)
+- **Email:** [My Email](mailto:ashsanthosh8@gmail.com)
