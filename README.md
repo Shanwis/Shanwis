@@ -21,14 +21,14 @@ Here's a selection of projects I've been working on.
 | :--- | :--- | :--- |
 | **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` `Click` |
 
-### 💡 IoT / Embedded
+### IoT / Embedded
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` |
 
 ---
 
-## 🔧 My Tech Stack & Stats
+## My Tech Stack & Stats
 
 ### Core Technologies
 <p>
