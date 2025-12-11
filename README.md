@@ -19,7 +19,7 @@ Here's a selection of projects I've been working on.
 ### Python
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` `Click` |
+| **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` |
 
 ### IoT / Embedded
 | Project | Description | Tech Stack |
@@ -40,11 +40,11 @@ Here's a selection of projects I've been working on.
 </p>
 
 ### GitHub Stats
-<p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanwis&layout=compact&hide=html&theme=dark&card_width=400" alt="Top Languages"/>
-  
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=shanwis&show_icons=true&theme=dark" alt="GitHub Stats"/>
-</p>
+<img src="./generated/stats.svg" />
+
+### Top Languages
+<img src="./generated/top-langs.svg" />
+
 
 ---
 

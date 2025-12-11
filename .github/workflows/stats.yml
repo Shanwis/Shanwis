@@ -1,0 +1,43 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"     # ⬅ Runs every hour
+  workflow_dispatch:         # Manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Clone stats generator
+        run: |
+          git clone https://github.com/anuraghazra/github-readme-stats.git
+
+      - name: Build stats
+        run: |
+          cd github-readme-stats
+          npm install
+          npm run build
+
+      - name: Generate Stats SVG
+        run: |
+          mkdir -p generated
+          node github-readme-stats/api/index.js "username=shanwis" "theme=dark" > generated/stats.svg
+          node github-readme-stats/api/top-langs.js "username=shanwis" "layout=compact" "theme=dark" > generated/top-langs.svg
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add generated/*.svg
+          git commit -m "Update stats" || echo "No changes to commit"
+          git push
