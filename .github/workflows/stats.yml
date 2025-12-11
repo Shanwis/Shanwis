@@ -1,0 +1,38 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # Every hour
+  workflow_dispatch:
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate GitHub Stats (profile)
+        uses: yushiomote/github-readme-stats-action@v1
+        with:
+          username: "shanwis"
+          template: "profile" 
+          theme: "dark"
+          output: "generated/stats.svg"
+
+      - name: Generate Top Languages
+        uses: yushiomote/github-readme-stats-action@v1
+        with:
+          username: "shanwis"
+          template: "top-langs"
+          theme: "dark"
+          layout: "compact"
+          output: "generated/top-langs.svg"
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add generated/*.svg
+          git commit -m "Update generated stats" || echo "No changes"
+          git push
