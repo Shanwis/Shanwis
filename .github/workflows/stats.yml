@@ -2,37 +2,42 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Every hour
-  workflow_dispatch:
+    - cron: "0 * * * *"     # ⬅ Runs every hour
+  workflow_dispatch:         # Manual run
 
 jobs:
-  stats:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats (profile)
-        uses: yushiomote/github-readme-stats-action@v1
+      - name: Set up Node
+        uses: actions/setup-node@v3
         with:
-          username: "shanwis"
-          template: "profile" 
-          theme: "dark"
-          output: "generated/stats.svg"
+          node-version: 18
 
-      - name: Generate Top Languages
-        uses: yushiomote/github-readme-stats-action@v1
-        with:
-          username: "shanwis"
-          template: "top-langs"
-          theme: "dark"
-          layout: "compact"
-          output: "generated/top-langs.svg"
+      - name: Clone stats generator
+        run: |
+          git clone https://github.com/anuraghazra/github-readme-stats.git
 
-      - name: Commit changes
+      - name: Build stats
+        run: |
+          cd github-readme-stats
+          npm install
+          npm run build
+
+      - name: Generate Stats SVG
+        run: |
+          mkdir -p generated
+          node github-readme-stats/api/index.js "username=shanwis" "theme=dark" > generated/stats.svg
+          node github-readme-stats/api/top-langs.js "username=shanwis" "layout=compact" "theme=dark" > generated/top-langs.svg
+
+      - name: Commit & push changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add generated/*.svg
-          git commit -m "Update generated stats" || echo "No changes"
+          git commit -m "Update stats" || echo "No changes to commit"
           git push
