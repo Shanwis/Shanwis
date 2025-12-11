@@ -2,7 +2,7 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Every hour
+    - cron: "0 * * * *"   # Run every hour
   workflow_dispatch:
 
 jobs:
@@ -12,27 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate GitHub Stats (Profile Card)
-        uses: leptospirosis/github-readme-stats-action@v2
-        with:
-          username: "shanwis"
-          template: "profile"
-          theme: "dark"
-          output: "generated/stats.svg"
+      - name: Create output directory
+        run: mkdir -p generated
 
-      - name: Generate GitHub Stats (Top Languages)
-        uses: leptospirosis/github-readme-stats-action@v2
-        with:
-          username: "shanwis"
-          template: "top-langs"
-          theme: "dark"
-          layout: "compact"
-          output: "generated/top-langs.svg"
+      - name: Download GitHub Stats SVG
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api?username=shanwis&theme=dark&show_icons=true&count_private=true" \
+            -o generated/stats.svg
+
+      - name: Download Top Languages SVG
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=shanwis&layout=compact&theme=dark" \
+            -o generated/top-langs.svg
 
       - name: Commit changes
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add generated/*.svg
-          git commit -m "Update generated stats" || echo "No changes"
+          git commit -m "Update stats images" || echo "No changes to commit"
           git push
