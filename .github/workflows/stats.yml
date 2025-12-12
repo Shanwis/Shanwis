@@ -2,7 +2,7 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Run every hour
+    - cron: "0 0 * * *"   # Run once per day at midnight
   workflow_dispatch:
 
 jobs:
