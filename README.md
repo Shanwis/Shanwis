@@ -1,6 +1,6 @@
 # Hi, I'm Ashwin/Shanwis! 👋
 
-I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**.
+I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**. I have got a recent interest into **homelabs** as well.
 
 I'm always open to collaborating on interesting projects or discussing new ideas.
 
@@ -31,7 +31,7 @@ Here's a selection of projects I've been working on.
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **Homelab Server** | A self-hosted home server used for NAS, backups, networking experiments, and Linux system administration. | `Ubuntu Server` `Samba` `SSH` `Tailscale` `CUPS` `PiHole`|
+| **[Homelab](https://github.com/Shanwis/Homelab)** | A self-hosted home server used for NAS, backups, networking experiments, and Linux system administration. | `Ubuntu Server` `Samba` `SSH` `Tailscale` `CUPS` `PiHole`|
 
 
 ---
