@@ -20,31 +20,39 @@ Here's a selection of projects I've been working on.
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` |
+| **[Hey-Teddy](https://github.com/Shanwis/Hey-Teddy)** | A voice assistant for linux systems executing several commands | `Python` `VOSK` `Porcupine` `pyttsx3` `pyjokes`|
 
 ### IoT / Embedded
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` |
 
+## Homelab / Self-Hosted Infrastructure
+
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **Homelab Server** | A self-hosted home server used for NAS, backups, networking experiments, and Linux system administration. | `Ubuntu Server` `Samba` `SSH` `Tailscale` `CUPS` `PiHole`|
+
+
 ---
 
 ## My Tech Stack & Stats
 
 ### Core Technologies
-<p>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/ESP32-E7332E?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7332E?style=for-the-badge&logo=espressif&logoColor=white)
+![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Server-informational?style=for-the-badge&logo=linux) 
+![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-success?style=for-the-badge)
+
 
 ### GitHub Stats
 <img src="./generated/stats.svg" />
 
 ### Top Languages
 <img src="./generated/top-langs.svg" />
-
 
 ---
 
