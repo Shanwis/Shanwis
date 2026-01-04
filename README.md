@@ -15,6 +15,7 @@ Here's a selection of projects I've been working on.
 | :--- | :--- | :--- |
 | **[MaQrel: A Quantum Simulator](https://github.com/Shanwis/MaQrel)** | A lightweight, high-performance quantum circuit simulator built from scratch. | `C++` `OpenMP` `Python` |
 | **[Toy-Virtual-Machine](https://github.com/Shanwis/Toy-Virtual-Machine)** | A simple VM and assembler that interprets its own bytecode. | `C` `Assembler` |
+| **[Minish](https://github.com/Shanwis/Minish)** | An attempt at making a shell; still a lot to add though. | `C` |
 
 ### Python
 | Project | Description | Tech Stack |
