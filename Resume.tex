@@ -1,0 +1,243 @@
+%-------------------------
+% Resume in Latex
+% Author : Ashwin S
+% Date   : June 2024
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Ashwin S} \\ \vspace{1pt}
+    Thiruvananthapuram, Kerala \\ \vspace{1pt}
+    \small \href{tel:+919447726621}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-9447726621} ~} \href{mailto:ashsanthosh8@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{ashsanthosh8@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/ashwin-s-67877728a}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{LinkedIn}}  ~
+    \href{https://github.com/Shanwis}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://leetcode.com/u/SHANWIS/}{\raisebox{-0.2\height}\faCode\ \underline{LeetCode}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Kottayam}{Expected: April 2027}
+      {Bachelor of Technology -- Computer Science and Engineering (GPA: 8.75)}{Kottayam, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Operating Systems, Computer Networks, Data Structures and Algorithms, Machine Learning, Parallel and Distributed Computing, High Performance Computing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {State Forensic Science Laboratory, Kerala}{June 2025 -- July 2025} 
+      {\underline{Software Development Intern}}{Thiruvananthapuram, India}
+      \resumeItemListStart
+        \resumeItem{Developed a secure, production-grade VB.NET desktop application with a SQL Server backend for forensic report management in the Chemistry Division.}
+        \resumeItem{Designed normalized relational schemas for cases, items, scopes, categories, and test results, ensuring data integrity and traceability.}
+        \resumeItem{Automated standard-compliant forensic report generation using Microsoft Word Interop, producing print-ready .docx documents from .dotx templates.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {AleeOop}{Sep. 2024 -- Dec. 2024} 
+      {\underline{Quality Assurance Intern}}{Iowa City-Cedar Rapids Area, Remote}
+      \resumeItemListStart
+        \resumeItem{Performed cross-platform functional and manual testing, and identified, documented, and reported bugs to ensure a seamless user experience across devices.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------RELEVANT PROJECTS-----------
+\section{RELEVANT PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+       \resumeProjectHeading
+          {\href{https://github.com/Shanwis/MaQrel}{\textbf{\large{{MaQrel: A Quantum Simulator}}} \raisebox{-0.1\height}\faExternalLink } $|$ \emph{C++, OpenMP, MPI}}{}
+          \resumeItemListStart
+            \resumeItem{Built a modular C++ quantum simulation library from the ground up, implementing a full state vector model for N-qubit systems.}
+            \resumeItem{Engineered high-performance parallel versions using OpenMP for multi-threading and MPI for distributed memory, directly aligning with low-latency scientific computing needs.}
+            \resumeItem{Analyzed parallel scalability and identified memory and synchronization bottlenecks across OpenMP and MPI implementations.}
+            \resumeItem{Designed as a reusable static library with well-defined headers for modular integration.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/Shanwis/Toy-Virtual-Machine}{\textbf{\large{{C Stack Based Virtual Machine}}} \raisebox{-0.1\height}\faExternalLink } $|$ \emph{C, Assembly}}{}
+          \resumeItemListStart
+            \resumeItem{Architected a Stack Based Virtual Machine and assembler to execute low-level assembly-like programs in C.}
+            \resumeItem{Implemented a set of 18 instructions to manage 6 general purpose registers (A-F), the stack pointer (SP), and the instruction pointer (IP).}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{https://github.com/Shanwis/Hey-Teddy}{\textbf{\large{{Hey-Teddy -- Offline Voice Assistant}}} \raisebox{-0.1\height}\faExternalLink } $|$ \emph{Python, VOSK, Porcupine}}{}
+          \resumeItemListStart
+            \resumeItem{Built an offline voice assistant in Python using VOSK (speech-to-text) and Porcupine (wake-word detection).}
+            \resumeItem{Implemented an event-driven offline voice interaction pipeline integrating wake-word detection, speech recognition, and OS-level command execution.}
+            \resumeItem{Focused on edge-AI design principles: offline operation, low latency, and minimal compute overhead.}
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------VOLUNTEERING & LEADERSHIP-----------
+\section{VOLUNTEERING \& LEADERSHIP}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {BetaLabs: IoT \& Cloud Computing, IIIT Kottayam}{Ongoing} 
+      {{Lead}}{Kottayam, India}
+      \resumeItemListStart
+        \resumeItem{Coordinated technical workshops and peer learning sessions on IoT and cloud fundamentals.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Game Dev Utopia, IIIT Kottayam}{Ongoing} 
+      {{Lead}}{Kottayam, India}
+      \resumeItemListStart
+        \resumeItem{Mentored peers in game development projects and assisted in technical planning and execution.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------SKILLS-----------
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming:}}{ \normalsize{C++, Python, C, Embedded C++}} \\
+     \textbf{\normalsize{Systems \& Performance:}}{ \normalsize{Linux, OpenMP, MPI, Multithreading, POSIX Concepts}} \\
+     \textbf{\normalsize{Tools \& Infrastructure:}}{\normalsize{ Git, Docker, SQL Server, MySQL, .NET, ESP32, Arduino Toolchain}} \\
+     \textbf{\normalsize{Scientific \& Specialized:}}{\normalsize{ Quantum State-Vector Simulation, Linear Algebra, Numerical Computing}}
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+\end{document}
