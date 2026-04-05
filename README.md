@@ -20,7 +20,7 @@ Here's a selection of projects I've been working on.
 ### Python
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `MoviePy` |
+| **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `ffmpeg` |
 | **[Hey-Teddy](https://github.com/Shanwis/Hey-Teddy)** | A voice assistant for linux systems executing several commands | `Python` `VOSK` `Porcupine` `piper` `pyjokes`|
 | **[Highli](https://github.com/Shanwis/Highli)** | A application allowing for lookups and queries regarding highlighted text  | `Python` `PyQt6` `Wordnet` `dictionary.net`|
 
@@ -52,9 +52,9 @@ Here's a selection of projects I've been working on.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) 
+![DevOps](https://img.shields.io/badge/DevOps-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-success?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/Linux-Server-informational?style=for-the-badge&logo=linux) 
-![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-success?style=for-the-badge)
 
 
 ### GitHub Stats
