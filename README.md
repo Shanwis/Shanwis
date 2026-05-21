@@ -42,7 +42,8 @@ Here's a selection of projects I've been working on.
 
 | Project | Contribution |
 | :--- | :--- |
-| [Deltakit](https://github.com/Deltakit/deltakit) | Contributed to Riverlane's quantum error correction SDK. |
+| **[Deltakit](https://github.com/Deltakit/deltakit)** | Contributed to Riverlane's quantum error correction SDK. |
+| **[Deltakit-stim](https://github.com/Deltakit/deltakit-stim)** | Contributed to Stim extension to non-computational errors such as leakage in Riverlane workflows. | 
 
 ## My Tech Stack & Stats
 
