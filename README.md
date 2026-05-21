@@ -38,6 +38,12 @@ Here's a selection of projects I've been working on.
 
 ---
 
+## Open Source Contributions
+
+| Project | Contribution |
+| :--- | :--- |
+| [Deltakit](https://github.com/Deltakit/deltakit) | Contributed to Riverlane's quantum error correction SDK. |
+
 ## My Tech Stack & Stats
 
 ### Core Technologies
