@@ -29,6 +29,16 @@ Here's a selection of projects I've been working on.
 | :--- | :--- | :--- |
 | **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` |
 
+### R
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Crash-ayoo](https://github.com/Mubaris2/Crash-ayoo)** | Vehicle crash detection via association rule mining on synthetic IoT sensor data. ETL pipeline → SQLite star schema → Apriori rule mining → validation w/ confusion matrix. | `R` `SQLite` `arules` `ggplot2` `dplyr` |  
+
+### TypeScript / React Native
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Wellnex](https://github.com/jenjose72/Wellnex)** | A comprehensive healthcare platform (hackathon project) with medical management, emergency response, fitness, and mental wellness features. | `TypeScript` `Expo` `React Native` `Supabase` `Google AI` |
+
 ## Homelab / Self-Hosted Infrastructure
 
 | Project | Description | Tech Stack |
@@ -42,8 +52,8 @@ Here's a selection of projects I've been working on.
 
 | Project | Contribution |
 | :--- | :--- |
-| **[Deltakit](https://github.com/Deltakit/deltakit)** | Contributed to Riverlane's quantum error correction SDK. |
-| **[Deltakit-stim](https://github.com/Deltakit/deltakit-stim)** | Contributed to Stim extension to non-computational errors such as leakage in Riverlane workflows. | 
+| **[Deltakit](https://github.com/Deltakit/deltakit)** | Workflow improvements and code refactoring for Riverlane's quantum error correction SDK. |
+| **[Deltakit-stim](https://github.com/Deltakit/deltakit-stim)** | Cleanup and workflow contributions to the Stim extension for non-computational errors (e.g., leakage). | 
 
 ## My Tech Stack & Stats
 
@@ -71,5 +81,5 @@ Here's a selection of projects I've been working on.
 
 ## Let's Connect!
 
-- **LinkedIn:** [My Linkdin](https://www.linkedin.com/in/ashwin-s-67877728a/)
+- **LinkedIn:** [My LinkedIn](https://www.linkedin.com/in/ashwin-s-67877728a/)
 - **Email:** [My Email](mailto:ashsanthosh8@gmail.com)
