@@ -39,12 +39,11 @@ Here's a selection of projects I've been working on.
 | :--- | :--- | :--- |
 | **[Wellnex](https://github.com/jenjose72/Wellnex)** | A comprehensive healthcare platform (hackathon project) with medical management, emergency response, fitness, and mental wellness features. | `TypeScript` `Expo` `React Native` `Supabase` `Google AI` |
 
-## Homelab / Self-Hosted Infrastructure
+### Homelab / Self-Hosted Infrastructure
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[Homelab](https://github.com/Shanwis/Homelab)** | A self-hosted home server used for NAS, backups, networking experiments, and Linux system administration. | `Ubuntu Server` `Samba` `SSH` `Tailscale` `CUPS` `PiHole` `NextCloud`|
-
 
 ---
 
@@ -54,6 +53,8 @@ Here's a selection of projects I've been working on.
 | :--- | :--- |
 | **[Deltakit](https://github.com/Deltakit/deltakit)** | Workflow improvements and code refactoring for Riverlane's quantum error correction SDK. |
 | **[Deltakit-stim](https://github.com/Deltakit/deltakit-stim)** | Cleanup and workflow contributions to the Stim extension for non-computational errors (e.g., leakage). | 
+
+---
 
 ## My Tech Stack & Stats
 
