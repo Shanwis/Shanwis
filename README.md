@@ -1,6 +1,6 @@
 # Hi, I'm Ashwin/Shanwis! 👋
 
-I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**. I have got a recent interest into **homelabs** as well.
+I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**. II'm also deeply interested in homelabs, self-hosted infrastructure, and Linux systems administration.
 
 I'm always open to collaborating on interesting projects or discussing new ideas.
 
@@ -27,7 +27,7 @@ Here's a selection of projects I've been working on.
 ### IoT / Embedded
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` |
+| **[Comfy: A desk comfort detector](https://github.com/Shanwis/Comfy)** | An IoT device that monitors desk temperature and humidity and sends alerts. | `ESP32` `C++ (Arduino)` `Python` `tkinter` |
 
 ### R
 | Project | Description | Tech Stack |
@@ -58,22 +58,43 @@ Here's a selection of projects I've been working on.
 
 ## My Tech Stack & Stats
 
-### Core Technologies
+### Systems & Infrastructure
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash_Scripting-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-success?style=for-the-badge)
+
+### Programming Languages
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7332E?style=for-the-badge&logo=espressif&logoColor=white)
-![GIT](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+### Scientific Computing & AI
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) 
-![DevOps](https://img.shields.io/badge/DevOps-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Self Hosted](https://img.shields.io/badge/Self--Hosted-Yes-success?style=for-the-badge)
-![Linux](https://img.shields.io/badge/Linux-Server-informational?style=for-the-badge&logo=linux) 
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![OpenMP](https://img.shields.io/badge/OpenMP-000000?style=for-the-badge)
 
+### UI & Application Development
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-FFCC00?style=for-the-badge&logo=python&logoColor=black)
+
+### Embedded & IoT
+![ESP32](https://img.shields.io/badge/ESP32-E7332E?style=for-the-badge&logo=espressif&logoColor=white)
+
+### Web & Mobile
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### GitHub Stats
 ![GitHub Streak](https://streak-stats.demolab.com?user=Shanwis&theme=dark)
