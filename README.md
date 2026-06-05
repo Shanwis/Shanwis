@@ -1,6 +1,6 @@
 # Hi, I'm Ashwin/Shanwis! 👋
 
-I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**. II'm also deeply interested in homelabs, self-hosted infrastructure, and Linux systems administration.
+I'm a software developer and tech enthusiast passionate about building and exploring new technologies. I'm currently diving deep into **Quantum Computing**, **High-Performance Computing (HPC)**, **AI**, and **IoT**. I'm also deeply interested in homelabs, self-hosted infrastructure, and Linux systems administration.
 
 I'm always open to collaborating on interesting projects or discussing new ideas.
 
