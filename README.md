@@ -97,7 +97,9 @@ Here's a selection of projects I've been working on.
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### GitHub Stats
-![GitHub Streak](https://streak-stats.demolab.com?user=Shanwis&theme=dark)
+[![GitHub streak](https://github-readme-streak-stats.herokuapp.com/?user=shanwis&theme=dark)](https://github.com/shanwis)  
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=shanwis&theme=dark&show_icons=true&count_private=true)](https://github.com/shanwis)  
+
 
 ---
 
