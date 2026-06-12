@@ -22,6 +22,7 @@ Here's a selection of projects I've been working on.
 | :--- | :--- | :--- |
 | **[GIFmeMore](https://github.com/Shanwis/GIFmeMore)** | A command-line tool to create animated GIFs from video files or image sequences. | `Python` `ffmpeg` |
 | **[Hey-Teddy](https://github.com/Shanwis/Hey-Teddy)** | A voice assistant for linux systems executing several commands | `Python` `VOSK` `Porcupine` `piper` `pyjokes`|
+| **[Yojip](https://github.com/Shanwis/yojip)** | An audio management utility for inspecting and managing PipeWire devices, nodes, and audio routing. | `Python` `PipeWire` |
 | **[Highli](https://github.com/Shanwis/Highli)** | A application allowing for lookups and queries regarding highlighted text  | `Python` `PyQt6` `Wordnet` `dictionary.net`|
 
 ### IoT / Embedded
@@ -53,6 +54,7 @@ Here's a selection of projects I've been working on.
 | :--- | :--- |
 | **[Deltakit](https://github.com/Deltakit/deltakit)** | Workflow improvements and code refactoring for Riverlane's quantum error correction SDK. |
 | **[Deltakit-stim](https://github.com/Deltakit/deltakit-stim)** | Cleanup and workflow contributions to the Stim extension for non-computational errors (e.g., leakage). | 
+| **[OpenQASM](https://github.com/openqasm/openqasm)** | Documentation updates and improvements for the OpenQASM quantum programming language ecosystem. |
 
 ---
 
